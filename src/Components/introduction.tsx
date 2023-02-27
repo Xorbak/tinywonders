@@ -8,6 +8,7 @@ export const Introduction = () => {
       container
       flexDirection={{ xs: "column", md: "row" }}
       justifyContent={"space-evenly"}
+      alignItems={"center"}
     >
       <Grid
         textAlign={{ xs: "center", md: "start" }}

@@ -8,6 +8,7 @@ export const PrincipalIntro = () => {
       container
       xs={12}
       md={8}
+      alignItems={{ xs: "center", md: "start" }}
       flexDirection={{ xs: "column", sm: "row" }}
       justifyContent={{ xs: "center", sm: "space-between" }}
     >
@@ -15,11 +16,11 @@ export const PrincipalIntro = () => {
         item
         borderRadius={"25px"}
         boxShadow={5}
-        xs={12}
+        xs={11}
         sm={5}
         component={"img"}
         src={monique}
-        sx={{ margin: "15px" }}
+        sx={{ margin: { xs: 0, md: "15px" } }}
       />
       <Grid
         item

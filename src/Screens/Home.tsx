@@ -47,7 +47,7 @@ export const Home = () => {
         alignItems="center"
       >
         <Grid xs={12} container justifyContent={"center"}>
-          <Typography variant="h4">Learning done right!</Typography>
+          <Typography variant="h4">Learning is a journey</Typography>
         </Grid>
 
         <RtlExtraInfo

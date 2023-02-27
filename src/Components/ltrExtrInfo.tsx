@@ -30,7 +30,7 @@ export const LtrExtraInfo = ({ image, title, caption }: Props) => {
           borderRadius={"5px"}
           sx={{ width: "150px", display: { xs: "none", sm: "block" } }}
         />
-        <Grid item xs={12} sm={6}>
+        <Grid item xs={12} sm={6} mb="25px">
           <Typography variant="h5">{title}</Typography>
           <Typography sx={{ marginTop: "15px" }}>{caption}</Typography>
         </Grid>
