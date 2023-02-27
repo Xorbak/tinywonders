@@ -25,7 +25,6 @@ export const LtrIntro = ({ image, caption, name }: Props) => {
         sm={4}
         md={3}
         component={"img"}
-        sx={{ width: "25px", height: "25px" }}
         src={image}
       />
       <Grid xs={10} sm={6} md={6}>
