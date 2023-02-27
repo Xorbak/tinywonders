@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/tinywonders/static/css/main.e6c13ad2.css",
+    "main.js": "/tinywonders/static/js/main.16a2eb7e.js",
+    "static/js/787.e7df1436.chunk.js": "/tinywonders/static/js/787.e7df1436.chunk.js",
+    "static/media/img5_grossMotor.jpg": "/tinywonders/static/media/img5_grossMotor.0b32bc4f8aed65e7387b.jpg",
+    "static/media/img3_feelingsArt.jpg": "/tinywonders/static/media/img3_feelingsArt.13b10e2c33035829871c.jpg",
+    "static/media/img6_fineMotor.jpg": "/tinywonders/static/media/img6_fineMotor.bf175597b67577f38559.jpg",
+    "static/media/png_ver.png": "/tinywonders/static/media/png_ver.7a5a6da8641acc831f6a.png",
+    "static/media/fifi.jpg": "/tinywonders/static/media/fifi.afe27254a760fa14c20d.jpg",
+    "static/media/img4_christmas.jpg": "/tinywonders/static/media/img4_christmas.f4205840b2ded4fea8ad.jpg",
+    "static/media/img1_art.jpg": "/tinywonders/static/media/img1_art.0c9199252684e6d68e85.jpg",
+    "static/media/img2_playRoom.jpg": "/tinywonders/static/media/img2_playRoom.fd5eaac3182295772396.jpg",
+    "static/media/minah.jpg": "/tinywonders/static/media/minah.6c7b9b0e0ba3169581e2.jpg",
+    "static/media/vuyo.jpg": "/tinywonders/static/media/vuyo.37697afdbd3ead41e60d.jpg",
+    "static/media/nonza.jpg": "/tinywonders/static/media/nonza.647f6c10e22088a733b9.jpg",
+    "static/media/caylynn.jpg": "/tinywonders/static/media/caylynn.7c04e1c8cd56deb11f1f.jpg",
+    "static/media/monique.jpeg": "/tinywonders/static/media/monique.be43aba54ed336a8d81a.jpeg",
+    "static/media/ruru.jpg": "/tinywonders/static/media/ruru.a96ae235e88f715a02af.jpg",
+    "static/media/margaret.jpg": "/tinywonders/static/media/margaret.475898d0d63a6f616a24.jpg",
+    "index.html": "/tinywonders/index.html",
+    "main.e6c13ad2.css.map": "/tinywonders/static/css/main.e6c13ad2.css.map",
+    "main.16a2eb7e.js.map": "/tinywonders/static/js/main.16a2eb7e.js.map",
+    "787.e7df1436.chunk.js.map": "/tinywonders/static/js/787.e7df1436.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.16a2eb7e.js"
+  ]
+}
