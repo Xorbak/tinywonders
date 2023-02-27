@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/tinywonders/static/css/main.e6c13ad2.css",
-    "main.js": "/tinywonders/static/js/main.16a2eb7e.js",
+    "main.js": "/tinywonders/static/js/main.fa21cb01.js",
     "static/js/787.e7df1436.chunk.js": "/tinywonders/static/js/787.e7df1436.chunk.js",
     "static/media/img5_grossMotor.jpg": "/tinywonders/static/media/img5_grossMotor.0b32bc4f8aed65e7387b.jpg",
     "static/media/img3_feelingsArt.jpg": "/tinywonders/static/media/img3_feelingsArt.13b10e2c33035829871c.jpg",
@@ -20,11 +20,11 @@
     "static/media/margaret.jpg": "/tinywonders/static/media/margaret.475898d0d63a6f616a24.jpg",
     "index.html": "/tinywonders/index.html",
     "main.e6c13ad2.css.map": "/tinywonders/static/css/main.e6c13ad2.css.map",
-    "main.16a2eb7e.js.map": "/tinywonders/static/js/main.16a2eb7e.js.map",
+    "main.fa21cb01.js.map": "/tinywonders/static/js/main.fa21cb01.js.map",
     "787.e7df1436.chunk.js.map": "/tinywonders/static/js/787.e7df1436.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.16a2eb7e.js"
+    "static/js/main.fa21cb01.js"
   ]
 }
