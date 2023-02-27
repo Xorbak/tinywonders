@@ -7,6 +7,7 @@ export const PrincipalIntro = () => {
     <Grid
       container
       xs={12}
+      sm={10}
       md={8}
       alignItems={{ xs: "center", md: "start" }}
       flexDirection={{ xs: "column", sm: "row" }}
