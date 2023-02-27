@@ -7,20 +7,21 @@ interface Props {
 }
 export const RtlIntro = ({ image, caption, name }: Props) => {
   return (
-    <Grid
+    <Grid //picture on the right side
       container
       item
       xs={10}
       md={6}
       alignItems={"center"}
       alignSelf={"center"}
+      justifyContent={"space-between"}
       flexDirection={{ xs: "column", sm: "row" }}
       gap={5}
       sx={{ marginBottom: "20px" }}
     >
       {" "}
       <Grid
-        borderRadius={"5px"}
+        borderRadius={"800px"}
         boxShadow={5}
         xs={10}
         sm={4}
@@ -36,7 +37,7 @@ export const RtlIntro = ({ image, caption, name }: Props) => {
         <Typography>{caption}</Typography>
       </Grid>{" "}
       <Grid
-        borderRadius={"5px"}
+        borderRadius={"800px"}
         boxShadow={5}
         xs={10}
         sm={3}

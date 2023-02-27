@@ -11,6 +11,7 @@ export const LtrIntro = ({ image, caption, name }: Props) => {
       container
       alignSelf={"center"}
       alignItems={{ xs: "center" }}
+      justifyContent={"space-between"}
       item
       xs={10}
       md={6}
@@ -19,7 +20,7 @@ export const LtrIntro = ({ image, caption, name }: Props) => {
       sx={{ marginBottom: "20px" }}
     >
       <Grid
-        borderRadius={"5px"}
+        borderRadius={"800px"}
         boxShadow={5}
         xs={10}
         sm={4}
