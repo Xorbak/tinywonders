@@ -1,4 +1,4 @@
-import Divider from "@mui/material/Divider";
+import { Divider } from "../Components/divider";
 import Grid from "@mui/material/Grid";
 import Typography from "@mui/material/Typography";
 import { height } from "@mui/system";
@@ -7,12 +7,11 @@ import { Introduction } from "../Components/introduction";
 import { LtrExtraInfo } from "../Components/ltrExtrInfo";
 import { PrincipalIntro } from "../Components/principalIntro";
 import { RtlExtraInfo } from "../Components/rtlExtraInfo";
-import img1 from "../images/img1_art.jpg";
-import img2 from "../images/img2_playRoom.jpg";
 import img3 from "../images/img3_feelingsArt.jpg";
-import img4 from "../images/img4_christmas.jpg";
 import grossMotor from "../images/img5_grossMotor.jpg";
 import fineMotor from "../images/img6_fineMotor.jpg";
+import { Banner } from "../Components/banner";
+import { Events } from "../Components/events";
 
 export const Home = () => {
   return (
@@ -23,15 +22,7 @@ export const Home = () => {
       alignItems={"center"}
       flexDirection={"column"}
     >
-      <Grid
-        //image banner
-        xs={12}
-      >
-        <Grid component={"img"} sx={{ width: "25%" }} src={img3}></Grid>
-        <Grid component={"img"} sx={{ width: "25%" }} src={img2}></Grid>
-        <Grid component={"img"} sx={{ width: "25%" }} src={img1}></Grid>
-        <Grid component={"img"} sx={{ width: "25%" }} src={img4}></Grid>
-      </Grid>
+      <Banner />
       <Grid
         //welcome message
         xs={12}
@@ -44,23 +35,9 @@ export const Home = () => {
         </Typography>
       </Grid>
       <Introduction />
-      <Grid
-        sx={{
-          borderTop: "1px solid",
-          borderColor: "primary.main",
-          width: "50%",
-          marginY: "25px",
-        }}
-      />
+      <Divider />
       <PrincipalIntro />
-      <Grid
-        sx={{
-          borderTop: "1px solid",
-          borderColor: "primary.main",
-          width: "50%",
-          marginY: "25px",
-        }}
-      />
+      <Divider />
       <Grid
         container
         xs={10}
@@ -102,6 +79,8 @@ export const Home = () => {
                 through improving attention and memory skills!"
         />
       </Grid>
+      <Divider />
+      <Events />
       <Footer />
     </Grid>
   );

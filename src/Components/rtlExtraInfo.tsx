@@ -18,9 +18,9 @@ export const RtlExtraInfo = ({ image, title, caption }: Props) => {
       alignContent="center"
       flexDirection={{ xs: "column", sm: "row" }}
     >
-      <Typography variant="h5">{title}</Typography>
       <Grid container justifyContent={"space-between"} alignItems={"center"}>
         <Grid item xs={12} sm={6}>
+          <Typography variant="h5">{title}</Typography>
           <Typography sx={{ marginTop: "15px" }}>{caption}</Typography>
         </Grid>
 

@@ -13,13 +13,21 @@ export const PrincipalIntro = () => {
     >
       <Grid
         item
+        borderRadius={"25px"}
+        boxShadow={5}
         xs={12}
-        sm={6}
+        sm={5}
         component={"img"}
         src={monique}
-        sx={{ padding: "15px" }}
+        sx={{ margin: "15px" }}
       />
-      <Grid item xs={12} sm={6} textAlign={{ xs: "center", md: "start" }}>
+      <Grid
+        item
+        xs={12}
+        sm={6}
+        textAlign={{ xs: "center", md: "start" }}
+        sx={{ marginTop: "15px" }}
+      >
         <Typography variant="h5" sx={{ marginBottom: "15px" }}>
           A Word from our Principal
         </Typography>
