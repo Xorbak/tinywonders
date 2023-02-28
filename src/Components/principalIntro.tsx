@@ -16,13 +16,18 @@ export const PrincipalIntro = () => {
       <Grid
         item
         borderRadius={"25px"}
-        boxShadow={5}
+        sx={{ margin: { xs: 0, md: "15px" } }}
         xs={11}
         sm={5}
-        component={"img"}
-        src={monique}
-        sx={{ margin: { xs: 0, md: "15px" } }}
-      />
+      >
+        <Grid
+          borderRadius={"25px"}
+          boxShadow={5}
+          sx={{ margin: { xs: 0, md: "15px" }, width: "100%" }}
+          component={"img"}
+          src={monique}
+        />
+      </Grid>
       <Grid
         item
         xs={12}
