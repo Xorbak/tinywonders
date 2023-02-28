@@ -81,7 +81,6 @@ export const Home = () => {
       </Grid>
       <Divider />
       <Events />
-      <Footer />
     </Grid>
   );
 };

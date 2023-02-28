@@ -11,6 +11,7 @@ import { Theme, ThemeProvider } from "@mui/material/styles";
 import { cottonCandy } from "./Components/themes";
 import tinyWondersLogo from "./images/png_ver.png";
 import Box from "@mui/material/Box";
+import { Footer } from "./Components/footer";
 
 function App() {
   return (
@@ -36,6 +37,7 @@ function App() {
           <Route path="/teachers" element={<MeetTheTeachers />}></Route>
           <Route path="/contactus" element={<ContactUs />}></Route>
         </Routes>
+        <Footer />
       </Grid>
     </ThemeProvider>
   );
