@@ -1,6 +1,8 @@
 import Grid from "@mui/material/Grid";
 import Typography from "@mui/material/Typography";
 import { NavLink } from "react-router-dom";
+import FacebookIcon from "@mui/icons-material/Facebook";
+import IconButton from "@mui/material/IconButton";
 
 export const Footer = () => {
   return (
@@ -36,8 +38,10 @@ export const Footer = () => {
           Follow us on Facebook
         </Typography>
         <NavLink to="https://www.facebook.com/groups/699579914505808/?ref=share&mibextid=KtfwRi">
-          {" "}
-          Tiny Wonders
+          <IconButton>
+            {" "}
+            <FacebookIcon fontSize="large"></FacebookIcon>
+          </IconButton>
         </NavLink>
       </Grid>
     </Grid>
