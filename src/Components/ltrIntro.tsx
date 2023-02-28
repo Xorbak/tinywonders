@@ -19,15 +19,16 @@ export const LtrIntro = ({ image, caption, name }: Props) => {
       gap={5}
       sx={{ marginBottom: "20px" }}
     >
-      <Grid
-        borderRadius={"800px"}
-        boxShadow={5}
-        xs={10}
-        sm={4}
-        md={3}
-        component={"img"}
-        src={image}
-      />
+      <Grid container xs={10} sm={4} md={3}>
+        <Grid
+          borderRadius={"800px"}
+          boxShadow={5}
+          component={"img"}
+          src={image}
+          sx={{ width: "100%" }}
+        />
+      </Grid>
+
       <Grid xs={10} sm={6} md={6}>
         <Typography variant="h6" sx={{ marginY: "10px" }}>
           Teacher {name}

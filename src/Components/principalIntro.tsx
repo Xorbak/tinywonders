@@ -13,9 +13,8 @@ export const PrincipalIntro = () => {
       flexDirection={{ xs: "column", sm: "row" }}
       justifyContent={{ xs: "center", sm: "space-between" }}
     >
-      <Grid
+      <Grid // image container for IOS not to bomb out
         item
-        borderRadius={"25px"}
         sx={{ margin: { xs: 0, md: "15px" } }}
         xs={11}
         sm={5}

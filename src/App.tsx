@@ -17,7 +17,14 @@ function App() {
     <ThemeProvider theme={cottonCandy}>
       <Grid sx={{ backgroundColor: "background.default" }}>
         <Grid container justifyContent={"center"}>
-          <Box component="img" src={tinyWondersLogo} sx={{ width: "150px" }} />
+          <Grid
+            xs={4}
+            sm={3}
+            md={2}
+            component="img"
+            src={tinyWondersLogo}
+            sx={{ width: "100%" }}
+          />
         </Grid>
         <NavBar />
         <Routes>
