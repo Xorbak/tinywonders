@@ -19,7 +19,7 @@ export const LtrIntro = ({ image, caption, name }: Props) => {
       gap={5}
       sx={{ marginBottom: "20px" }}
     >
-      <Grid container xs={10} sm={4} md={3}>
+      <Grid xs={10} sm={4} md={3}>
         <Grid
           item
           borderRadius={"800px"}
