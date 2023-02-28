@@ -21,6 +21,7 @@ export const LtrIntro = ({ image, caption, name }: Props) => {
     >
       <Grid container xs={10} sm={4} md={3}>
         <Grid
+          item
           borderRadius={"800px"}
           boxShadow={5}
           component={"img"}
