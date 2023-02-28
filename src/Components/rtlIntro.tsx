@@ -19,7 +19,13 @@ export const RtlIntro = ({ image, caption, name }: Props) => {
       gap={5}
       sx={{ marginBottom: "20px" }}
     >
-      <Grid xs={10} sm={4} md={3} sx={{ display: { xs: "block", sm: "none" } }}>
+      <Grid
+        item
+        xs={10}
+        sm={4}
+        md={3}
+        sx={{ display: { xs: "block", sm: "none" } }}
+      >
         <Grid
           borderRadius={"800px"}
           boxShadow={5}
