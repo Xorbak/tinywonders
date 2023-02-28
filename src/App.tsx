@@ -15,16 +15,20 @@ import Box from "@mui/material/Box";
 function App() {
   return (
     <ThemeProvider theme={cottonCandy}>
-      <Grid sx={{ backgroundColor: "background.default" }}>
-        <Grid container justifyContent={"center"}>
-          <Grid
-            xs={4}
-            sm={3}
-            md={2}
-            component="img"
-            src={tinyWondersLogo}
-            sx={{ width: "100%" }}
-          />
+      <Grid
+        container
+        flexDirection={"column"}
+        sx={{ backgroundColor: "background.default" }}
+      >
+        <Grid
+          alignSelf={"center"}
+          xs={4}
+          sm={3}
+          md={2}
+          container
+          justifyContent={"center"}
+        >
+          <Grid component="img" src={tinyWondersLogo} sx={{ width: "100%" }} />
         </Grid>
         <NavBar />
         <Routes>
